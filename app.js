@@ -31,5 +31,5 @@ $(function () {
 
     });
     var inner = $('.console .jquery-console-inner');
-    inner.height($(window).height() - 2 * (inner.innerHeight() - inner.height()));
+    inner.height($(window).height() - (inner.innerHeight() - inner.height()));
 });
